@@ -1,0 +1,19 @@
+# Header overrides only. Build settings stay in the Netlify UI — nothing here
+# defines a build command or publish directory, so this file cannot override
+# them.
+
+# Netlify serves everything under public/ straight from its CDN, which bypasses
+# the headers() block in next.config.ts — that only applies to routes Next
+# itself renders. The evidence: the deployed AASA response carried neither the
+# Content-Type set there nor the site-wide X-Content-Type-Options, while /join
+# carried both.
+#
+# Apple requires apple-app-site-association to be served as application/json.
+# It deliberately has no file extension, so Netlify infers text/plain from the
+# bytes and iOS fails universal-link verification — silently, with nothing
+# logged on either side.
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    X-Content-Type-Options = "nosniff"

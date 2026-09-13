@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4W222R3M8B.com.krishanblr.hisaab"],
+        "components": [
+          {
+            "/": "/join",
+            "comment": "Group invite code, as /join?code=ABC123"
+          },
+          {
+            "/": "/join/*",
+            "comment": "Group invite code carried in the path"
+          }
+        ]
+      }
+    ]
+  }
+}

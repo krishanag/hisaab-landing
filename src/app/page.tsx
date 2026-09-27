@@ -121,7 +121,7 @@ export default function Home() {
 
             <div className="flex items-center gap-3">
               <div className="hidden md:block">
-                <DownloadButtons variant="compact" />
+                <DownloadButtons variant="compact" placement="header" />
               </div>
               <button
                 className="md:hidden p-2 text-text2 hover:text-text1 transition-colors"
@@ -173,7 +173,7 @@ export default function Home() {
                   </Link>
                 ))}
                 <div className="pt-2" onClick={() => setIsMenuOpen(false)}>
-                  <DownloadButtons variant="compact" className="w-full justify-center" />
+                  <DownloadButtons variant="compact" placement="mobile-menu" className="w-full justify-center" />
                 </div>
               </nav>
             </motion.div>

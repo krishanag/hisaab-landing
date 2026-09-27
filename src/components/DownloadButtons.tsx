@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { Download } from 'lucide-react';
 import { trackEvent } from '@/lib/mixpanel';
+import { pageTypeFor } from '@/lib/pageType';
 import { buildAppStoreUrl, buildPlayStoreUrl, getUtmParams } from '@/lib/storeUrls';
 
 const DEEP_LINK_SCHEME = 'hisaab';
@@ -20,9 +21,15 @@ type Variant = 'hero' | 'compact' | 'cta' | 'dark' | 'footer-links';
 interface DownloadButtonProps {
   variant?: Variant;
   className?: string;
+  /** Which button this is, for store_redirect. Defaults to the variant. */
+  placement?: string;
 }
 
-export default function DownloadButton({ variant = 'hero', className = '' }: DownloadButtonProps) {
+export default function DownloadButton({
+  variant = 'hero',
+  className = '',
+  placement,
+}: DownloadButtonProps) {
   const [platform, setPlatform] = useState<'android' | 'ios' | 'other'>('other');
   const [trying, setTrying] = useState(false);
 
@@ -39,6 +46,8 @@ export default function DownloadButton({ variant = 'hero', className = '' }: Dow
       store: platform === 'ios' ? 'app_store' : 'play_store',
       platform,
       page: window.location.pathname,
+      page_type: pageTypeFor(window.location.pathname),
+      placement: placement ?? variant,
       ...utm,
     });
 
@@ -80,7 +89,7 @@ export default function DownloadButton({ variant = 'hero', className = '' }: Dow
       // Desktop — open Play Store
       window.open(playStoreUrl, '_blank', 'noopener,noreferrer');
     }
-  }, [platform]);
+  }, [platform, placement, variant]);
 
   if (variant === 'compact') {
     return (

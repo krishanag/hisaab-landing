@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
+import { trackEvent } from '@/lib/mixpanel';
 import Link from 'next/link';
 import { Plus, Trash2 } from 'lucide-react';
 import SeoPageHeader from '@/components/SeoPageHeader';
@@ -30,6 +31,19 @@ export default function RentSplitCalculatorPage() {
     { id: '2', name: 'Roommate 2', roomSize: 100, income: 50000 },
     { id: '3', name: 'Roommate 3', roomSize: 80, income: 40000 },
   ]);
+
+  // tool_used once per visit, on the first real edit (the defaults don't count).
+  const isFirstRender = useRef(true);
+  const usageTracked = useRef(false);
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    if (usageTracked.current) return;
+    usageTracked.current = true;
+    trackEvent('tool_used', { tool: 'rent_split_calculator', method, people: people.length });
+  }, [totalRent, method, hybridRoomShare, people]);
 
   const splits = useMemo(() => {
     if (people.length === 0) return [];

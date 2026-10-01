@@ -5,7 +5,7 @@ import { useEffect, useState, Suspense } from 'react';
 import Image from 'next/image';
 import DownloadButtons from '@/components/DownloadButtons';
 
-const API_URL = 'https://svcdqdtokeifognfxeim.supabase.co/functions/v1/share-page';
+const API_URL = 'https://wheumostamlkmyksuhgf.supabase.co/functions/v1/share-page';
 
 type Snapshot =
   | {

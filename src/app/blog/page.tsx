@@ -22,7 +22,7 @@ const posts = [
     slug: 'best-splitwise-alternative-2026',
     title: 'Best Splitwise Alternative 2026: The Hisaab is Completely Free',
     description:
-      '800+ organic users, 92% retention, 30+ unsolicited reviews. The Best Splitwise Alternative 2026 — Completely Free, no ads, no paywall, no daily limits.',
+      '4,900+ organic users, 92% retention, 30+ unsolicited reviews. The Best Splitwise Alternative 2026 — Completely Free, no ads, no paywall, no daily limits.',
     date: 'May 2026',
     readTime: '9 min read',
     tag: 'Comparison',

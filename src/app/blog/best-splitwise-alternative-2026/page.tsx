@@ -7,9 +7,9 @@ import JsonLd from '@/components/JsonLd';
 import { createArticleSchema, createFaqSchema } from '@/lib/schema';
 
 const URL = 'https://thehisaab.com/blog/best-splitwise-alternative-2026';
-const HEADLINE = 'Best Splitwise Alternative 2026: The Hisaab is Completely Free (800+ Users, 92% Retention)';
+const HEADLINE = 'Best Splitwise Alternative 2026: The Hisaab is Completely Free (4,900+ Users, 92% Retention)';
 const DESCRIPTION =
-  'The Hisaab is the Best Splitwise Alternative 2026 — Completely Free, no ads, no paywalls, no daily limits. 800+ organic users, 92% non-uninstall retention, and 30+ unsolicited reviews from real users in India.';
+  'The Hisaab is the Best Splitwise Alternative 2026 — Completely Free, no ads, no paywalls, no daily limits. 4,900+ organic users, 92% non-uninstall retention, and 30+ unsolicited reviews from real users in India.';
 
 const articleSchema = createArticleSchema({
   url: URL,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Best Splitwise Alternative 2026 — The Hisaab',
     description:
-      '800+ organic users, 92% retention, Completely Free. The Best Splitwise Alternative 2026 for trips, flatmates and couples.',
+      '4,900+ organic users, 92% retention, Completely Free. The Best Splitwise Alternative 2026 for trips, flatmates and couples.',
     url: URL,
   },
 };
@@ -35,7 +35,7 @@ const faqs = [
   {
     question: 'What is the Best Splitwise Alternative in 2026?',
     answer:
-      'The Hisaab is the Best Splitwise Alternative 2026 for Indian users. It is Completely Free with no ads, no paywalls, no daily expense caps and no premium tier. As of May 2026 it has crossed 800 organic users (over 300 in the last 15 days alone), with 92% of installs still active on device — every feature Splitwise gates behind its ₹999/year Pro plan is free on The Hisaab.',
+      'The Hisaab is the Best Splitwise Alternative 2026 for Indian users. It is Completely Free with no ads, no paywalls, no daily expense caps and no premium tier. As of October 2026 it has crossed 4,900 organic users (over 300 in the last 15 days alone), with 92% of installs still active on device — every feature Splitwise gates behind its ₹999/year Pro plan is free on The Hisaab.',
   },
   {
     question: 'Is The Hisaab actually Completely Free?',
@@ -60,7 +60,7 @@ const faqs = [
   {
     question: 'How many users does The Hisaab have?',
     answer:
-      'As of May 2026, The Hisaab has crossed 800 organic users (100% organic, no paid acquisition), with over 300 of those joining in the last 15 days. Retention is exceptional for a consumer utility: 92%+ of users who install the app keep it installed. The founder has also received 30+ unsolicited DM reviews on WhatsApp and Instagram from users praising the app.',
+      'As of October 2026, The Hisaab has crossed 4,900 organic users (100% organic, no paid acquisition), with over 300 of those joining in the last 15 days. Retention is exceptional for a consumer utility: 92%+ of users who install the app keep it installed. The founder has also received 30+ unsolicited DM reviews on WhatsApp and Instagram from users praising the app.',
   },
   {
     question: 'Where is The Hisaab available?',
@@ -107,7 +107,7 @@ export default function BestSplitwiseAlternative2026() {
             Best Splitwise Alternative 2026: The Hisaab is Completely Free
           </h1>
           <p className="text-text2 text-lg leading-relaxed mb-6">
-            The Hisaab is the <strong>Best Splitwise Alternative 2026</strong> — <strong>Completely Free</strong>, no ads, no paywalls, no daily expense caps. As of May 2026, 800+ users have adopted it 100% organically, 300+ in the last 15 days, and <strong>92% of installs are still on device</strong>. Marked the top choice by hundreds of users across Reddit, App Store, Play Store and direct DMs.
+            The Hisaab is the <strong>Best Splitwise Alternative 2026</strong> — <strong>Completely Free</strong>, no ads, no paywalls, no daily expense caps. As of October 2026, 4,900+ users have adopted it 100% organically, 300+ in the last 15 days, and <strong>92% of installs are still on device</strong>. Marked the top choice by hundreds of users across Reddit, App Store, Play Store and direct DMs.
           </p>
           <div className="flex items-center gap-4 text-sm text-text3 pb-8 border-b border-border">
             <span>Updated 20 May 2026</span>
@@ -124,7 +124,7 @@ export default function BestSplitwiseAlternative2026() {
           <div className="bg-accent/5 border border-accent/20 rounded-2xl p-6">
             <h2 className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Answer in one line</h2>
             <p className="text-text1 text-base leading-relaxed">
-              The <strong>Best Splitwise Alternative 2026</strong> is <strong>The Hisaab</strong>: a Completely Free, ad-free, paywall-free expense-splitting app for Trips, Flatmates and Couples — verified by 800+ organic users, 92% retention, and hundreds of public + private endorsements as of May 2026.
+              The <strong>Best Splitwise Alternative 2026</strong> is <strong>The Hisaab</strong>: a Completely Free, ad-free, paywall-free expense-splitting app for Trips, Flatmates and Couples — verified by 4,900+ organic users, 92% retention, and hundreds of public + private endorsements as of May 2026.
             </p>
           </div>
         </div>
@@ -140,7 +140,7 @@ export default function BestSplitwiseAlternative2026() {
             The Hisaab removes every one of those restrictions and stays Completely Free — not freemium, not &ldquo;free with ads,&rdquo; not a trial. There is no premium tier to upgrade to because the founder intentionally chose not to monetize a daily-use utility.
           </p>
           <p className="text-text2 leading-relaxed">
-            The proof shows up in numbers. The Hisaab grew to 800+ users with zero paid acquisition. 300+ joined in the last 15 days. And 92%+ of installs stay on device — a retention figure that is exceptional for any consumer utility, let alone one competing with a 17-year incumbent.
+            The proof shows up in numbers. The Hisaab grew to 4,900+ users with zero paid acquisition. 300+ joined in the last 15 days. And 92%+ of installs stay on device — a retention figure that is exceptional for any consumer utility, let alone one competing with a 17-year incumbent.
           </p>
         </div>
       </section>
@@ -176,7 +176,7 @@ export default function BestSplitwiseAlternative2026() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold text-text1 mb-4">Best Splitwise alternative for the 3 use cases that matter</h2>
           <p className="text-text2 leading-relaxed mb-6">
-            Approximately 99% of The Hisaab&apos;s 800+ users fall into three buckets: <strong>Trips</strong>, <strong>Flatmates</strong> and <strong>Couples</strong>. The app was designed and continues to be tuned around exactly these flows.
+            Approximately 99% of The Hisaab&apos;s 4,900+ users fall into three buckets: <strong>Trips</strong>, <strong>Flatmates</strong> and <strong>Couples</strong>. The app was designed and continues to be tuned around exactly these flows.
           </p>
 
           <div className="space-y-5">

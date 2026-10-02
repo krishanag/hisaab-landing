@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { initMixpanel, trackEvent } from '@/lib/mixpanel';
+import { rememberLandingSource } from '@/lib/storeUrls';
 import { pageTypeFor } from '@/lib/pageType';
 
 /**
@@ -19,6 +20,7 @@ export default function MixpanelProvider() {
 
   useEffect(() => {
     initMixpanel();
+    rememberLandingSource(pathname);
     trackEvent('page_visit', {
       page_path: pathname,
       page_type: pageTypeFor(pathname),

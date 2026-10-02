@@ -7,7 +7,7 @@ import {
   APP_STORE_URL,
   buildAppStoreUrl,
   buildPlayStoreUrl,
-  getUtmParams,
+  getAttribution,
 } from '@/lib/storeUrls'
 
 const DEEP_LINK_SCHEME = 'hisaab'
@@ -101,12 +101,12 @@ export default function LinkPage() {
   useEffect(() => {
     const ua = navigator.userAgent
     setPlatform(getPlatform(ua))
-    setAppStoreUrl(buildAppStoreUrl(getUtmParams()))
+    setAppStoreUrl(buildAppStoreUrl(getAttribution()))
     collectInfo()
   }, [])
 
   const openApp = useCallback(() => {
-    const utm = getUtmParams()
+    const utm = getAttribution()
     if (platform === 'android') {
       const intentUrl =
         `intent://#Intent;` +

@@ -145,7 +145,7 @@ export default function AboutPage() {
 
               <div className="border-l-2 border-brand pl-4">
                 <p className="text-text1 font-semibold mb-1">
-                  500+ Indian users and counting
+                  4,900+ Indian users and counting
                 </p>
                 <p className="text-sm text-text3">
                   Mostly from college flatmate groups, trip crews, and word of

@@ -97,10 +97,12 @@ export const softwareApplicationSchema = {
     'Works offline with real-time sync',
     'Friends view shared groups via link without signup',
   ],
+  // Must match the stores: Google treats structured-data ratings that differ from the
+  // real ones as spam. Combined as of 2026-10-02: Play 4.4 (61), App Store 4.8 (8).
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '5.0',
-    ratingCount: '32',
+    ratingValue: '4.4',
+    ratingCount: '69',
     bestRating: '5',
     worstRating: '1',
   },

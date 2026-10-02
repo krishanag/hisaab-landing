@@ -6,13 +6,13 @@ import Head from 'next/head'
 import { motion } from 'framer-motion'
 import { Download, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
-import { buildPlayStoreUrl, getUtmParams, PLAY_STORE_URL } from '@/lib/storeUrls'
+import { buildPlayStoreUrl, getAttribution, PLAY_STORE_URL } from '@/lib/storeUrls'
 
 export default function DownloadPage() {
   const [playStoreUrl, setPlayStoreUrl] = useState(PLAY_STORE_URL)
 
   useEffect(() => {
-    const utm = getUtmParams()
+    const utm = getAttribution()
     const url = buildPlayStoreUrl(utm)
     setPlayStoreUrl(url)
 

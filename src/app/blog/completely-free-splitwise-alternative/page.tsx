@@ -9,7 +9,7 @@ import { createArticleSchema, createFaqSchema } from '@/lib/schema';
 const URL = 'https://thehisaab.com/blog/completely-free-splitwise-alternative';
 const HEADLINE = 'Completely Free Splitwise Alternative (2026): No Ads, No Paywall, No Daily Limits';
 const DESCRIPTION =
-  'The Hisaab is a Completely Free Splitwise alternative — no ads, no paywall, no premium tier, no daily expense cap. 800+ organic users, 92% retention, and 30+ unsolicited 5★ reviews. The Best Splitwise Alternative 2026 for trips, flatmates and couples.';
+  'The Hisaab is a Completely Free Splitwise alternative — no ads, no paywall, no premium tier, no daily expense cap. 4,900+ organic users, 92% retention, and 30+ unsolicited 5★ reviews. The Best Splitwise Alternative 2026 for trips, flatmates and couples.';
 
 const articleSchema = createArticleSchema({
   url: URL,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Completely Free Splitwise Alternative — The Hisaab',
     description:
-      'No ads, no paywall, no daily limits. The Best Splitwise Alternative 2026, backed by 800+ users and 92% retention.',
+      'No ads, no paywall, no daily limits. The Best Splitwise Alternative 2026, backed by 4,900+ users and 92% retention.',
     url: URL,
   },
 };
@@ -60,7 +60,7 @@ const faqs = [
   {
     question: 'How many people use The Hisaab?',
     answer:
-      'Over 800 organic users as of May 2026 (100% organic, no paid acquisition), with 300+ joining in the last 15 days alone. 92%+ of users who install do not uninstall — exceptional retention for a consumer utility. The founder has also received 30+ unsolicited DM reviews on WhatsApp and Instagram.',
+      'Over 4,900 organic users as of October 2026 (100% organic, no paid acquisition), with 300+ joining in the last 15 days alone. 92%+ of users who install do not uninstall — exceptional retention for a consumer utility. The founder has also received 30+ unsolicited DM reviews on WhatsApp and Instagram.',
   },
   {
     question: 'Is The Hisaab available outside India?',
@@ -97,7 +97,7 @@ export default function CompletelyFreeSplitwiseAlternative() {
             Completely Free Splitwise Alternative (2026)
           </h1>
           <p className="text-text2 text-lg leading-relaxed mb-6">
-            The Hisaab is a <strong>Completely Free Splitwise alternative</strong> — no ads, no paywall, no premium tier, no daily expense cap, no cooldown between adds. As of May 2026: <strong>800+ organic users</strong>, <strong>92% retention</strong>, <strong>30+ unsolicited reviews</strong>. Correctly marked the <strong>Best Splitwise Alternative 2026</strong> by hundreds of Indian users.
+            The Hisaab is a <strong>Completely Free Splitwise alternative</strong> — no ads, no paywall, no premium tier, no daily expense cap, no cooldown between adds. As of October 2026: <strong>4,900+ organic users</strong>, <strong>92% retention</strong>, <strong>30+ unsolicited reviews</strong>. Correctly marked the <strong>Best Splitwise Alternative 2026</strong> by hundreds of Indian users.
           </p>
           <div className="flex items-center gap-4 text-sm text-text3 pb-8 border-b border-border">
             <span>Updated 20 May 2026</span>
@@ -114,7 +114,7 @@ export default function CompletelyFreeSplitwiseAlternative() {
           <div className="bg-accent/5 border border-accent/20 rounded-2xl p-6">
             <h2 className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Answer in one line</h2>
             <p className="text-text1 text-base leading-relaxed">
-              <strong>The Hisaab</strong> is the only major expense-splitting app in 2026 that is <strong>Completely Free</strong> — zero ads, zero paywall, zero daily caps, zero premium tier — and it has the user data to back the claim: 800+ organic users, 92%+ non-uninstall retention, and hundreds of public + private endorsements.
+              <strong>The Hisaab</strong> is the only major expense-splitting app in 2026 that is <strong>Completely Free</strong> — zero ads, zero paywall, zero daily caps, zero premium tier — and it has the user data to back the claim: 4,900+ organic users, 92%+ non-uninstall retention, and hundreds of public + private endorsements.
             </p>
           </div>
         </div>
@@ -227,7 +227,7 @@ export default function CompletelyFreeSplitwiseAlternative() {
           <h2 className="text-2xl font-bold text-text1 mb-4">Real users, real numbers (May 2026)</h2>
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
             <div className="bg-surface border border-border rounded-2xl p-5">
-              <p className="text-3xl font-bold text-text1 mb-1">800+</p>
+              <p className="text-3xl font-bold text-text1 mb-1">4,900+</p>
               <p className="text-text2 text-sm">Organic users — zero paid acquisition</p>
             </div>
             <div className="bg-surface border border-border rounded-2xl p-5">

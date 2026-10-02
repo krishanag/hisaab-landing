@@ -286,7 +286,7 @@ export default function RentSplitCalculatorPage() {
         </div>
       </section>
 
-      <SeoPageFooter heading="Calculate. Split. Settle." subheading="Free forever. Built for India. Used by 500+ Indian flatmates and trip groups." />
+      <SeoPageFooter heading="Calculate. Split. Settle." subheading="Free forever. Built for India. Used by 4,900+ Indian flatmates and trip groups." />
     </div>
   );
 }

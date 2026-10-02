@@ -5,7 +5,7 @@ import {
   APP_STORE_URL,
   buildAppStoreUrl,
   buildPlayStoreUrl,
-  getUtmParams,
+  getAttribution,
   PLAY_STORE_URL,
 } from '@/lib/storeUrls';
 
@@ -19,7 +19,7 @@ export default function StoreLink({ store, className, children }: StoreLinkProps
   const [href, setHref] = useState(store === 'play' ? PLAY_STORE_URL : APP_STORE_URL);
 
   useEffect(() => {
-    const utm = getUtmParams();
+    const utm = getAttribution();
     setHref(store === 'play' ? buildPlayStoreUrl(utm) : buildAppStoreUrl(utm));
   }, [store]);
 

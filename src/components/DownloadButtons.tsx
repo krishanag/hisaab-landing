@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from 'react';
 import { Download } from 'lucide-react';
 import { trackEvent } from '@/lib/mixpanel';
 import { pageTypeFor } from '@/lib/pageType';
-import { buildAppStoreUrl, buildPlayStoreUrl, getUtmParams } from '@/lib/storeUrls';
+import { buildAppStoreUrl, buildPlayStoreUrl, getAttribution } from '@/lib/storeUrls';
 
 const DEEP_LINK_SCHEME = 'hisaab';
 
@@ -38,7 +38,7 @@ export default function DownloadButton({
   }, []);
 
   const handleDownload = useCallback(() => {
-    const utm = getUtmParams();
+    const utm = getAttribution();
     const playStoreUrl = buildPlayStoreUrl(utm);
     const appStoreUrl = buildAppStoreUrl(utm);
 

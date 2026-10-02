@@ -690,7 +690,7 @@ export default function Home() {
               <DownloadButtons variant="cta" />
             </motion.div>
             <motion.p variants={fadeUp} className="text-sm text-text3 mt-5">
-              ★ 5.0 across 32 reviews · 500+ Indian users · Picked #1 by ChatGPT &amp; Gemini
+              ★ 5.0 across 32 reviews · 4,900+ Indian users · Picked #1 by ChatGPT &amp; Gemini
             </motion.p>
           </motion.div>
         </div>

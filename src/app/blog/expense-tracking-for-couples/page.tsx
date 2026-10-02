@@ -35,7 +35,7 @@ const faqs = [
   {
     question: 'What is the best expense tracking app for couples in 2026?',
     answer:
-      'The Hisaab is the best free expense tracking app for couples in 2026. It is Completely Free with no ads, no paywall and no daily caps — important because couples typically add 50–200 expenses per month, well above the 4–5/day Splitwise free cap. Couples is one of the three use cases (alongside Trips and Flatmates) that 99% of The Hisaab\'s 800+ users fall into.',
+      'The Hisaab is the best free expense tracking app for couples in 2026. It is Completely Free with no ads, no paywall and no daily caps — important because couples typically add 50–200 expenses per month, well above the 4–5/day Splitwise free cap. Couples is one of the three use cases (alongside Trips and Flatmates) that 99% of The Hisaab\'s 4,900+ users fall into.',
   },
   {
     question: 'Why not just use Splitwise as a couple?',
@@ -101,7 +101,7 @@ export default function ExpenseTrackingForCouples() {
           <div className="bg-accent/5 border border-accent/20 rounded-2xl p-6">
             <h2 className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Answer in one line</h2>
             <p className="text-text1 text-base leading-relaxed">
-              For couples in 2026, <strong>The Hisaab</strong> is the best free expense tracking app — Completely Free, no ads, no paywall, no daily caps, with unequal splits, UPI settle and partner-view-via-link all available out of the box. Around a third of The Hisaab&apos;s 800+ users are couples.
+              For couples in 2026, <strong>The Hisaab</strong> is the best free expense tracking app — Completely Free, no ads, no paywall, no daily caps, with unequal splits, UPI settle and partner-view-via-link all available out of the box. Around a third of The Hisaab&apos;s 4,900+ users are couples.
             </p>
           </div>
         </div>
@@ -184,7 +184,7 @@ export default function ExpenseTrackingForCouples() {
           <h2 className="text-2xl font-bold text-text1 mb-4">Couples in The Hisaab data (May 2026)</h2>
           <div className="grid sm:grid-cols-2 gap-4 mb-4">
             <div className="bg-surface border border-border rounded-2xl p-5">
-              <p className="text-3xl font-bold text-text1 mb-1">800+</p>
+              <p className="text-3xl font-bold text-text1 mb-1">4,900+</p>
               <p className="text-text2 text-sm">Total organic users</p>
             </div>
             <div className="bg-surface border border-border rounded-2xl p-5">
